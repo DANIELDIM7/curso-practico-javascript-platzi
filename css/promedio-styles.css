@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --white: #fff;
+    --black: #0000;
+    --very-ligth-pink: #c7c7c7;
+    --text-input-field: #f7f7f7;
+    --hospital-green: #acd9b2;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+  }
+  
+  header {
+    height: 100px;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+  }
+  
+  header p {
+    color: var(--very-ligth-pink);
+    font-size: var(--md);
+    line-height: 25px;
+  }
+  
+  h2 {
+    color: var(--very-ligth-pink);
+    font-size: var(--lg);
+  }
+  body {
+    font-family: "El Messiri", sans-serif;
+    font-family: "Festive", cursive;
+    font-family: "Quicksand", sans-serif;
+    background-color: var(--very-ligth-pink);
+    margin: 10px;
+    color: var(--very-ligth-pink);
+  }
+  
+  .cuerpo {
+    display: flex;
+    place-content: center;
+  }
+  
+  .cuerpoFormulario {
+    height: 700px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: var(--white);
+    line-height: 2rem;
+    margin-top: 10px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .primary-button {
+    margin: 10px 0 0 80px;
+    background-color: var(--hospital-green);
+    border-radius: 8px;
+    border: none;
+    color: var(--white);
+    width: 50%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 70px;
+  }
+  
+  .button-container {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+  }
+  

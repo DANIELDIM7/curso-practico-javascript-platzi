@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Figuras geométricas | Curso practico Javascript</title>
+    <!-- ESTILOS -->
+    <link rel="stylesheet" href="./css/figure-styles.css" />
+    <script src="./js/figuras.js"></script>
+    <!-- FONTS DE GOOGLE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+ 
+  
+    
+  </head>
+  <body>
+    <header>
+      <h1>Figuras Geométricas</h1>
+      <p>Este es el primer taller del curso práctico de Javascript</p>
+      <h2>Calcula el área y perímetro de un cuadrado</h2>
+    </header>
+    <div>
+      <section class="cuerpo">
+        <div>
+          <img src="./img/dark-quadrate_icon-icons.com_54021.png" alt="imagen-cuadrado"><br>
+         
+          <label for="inputCuadrado">
+            Escribe cuánto mide cada lado de tú cuadrado
+          </label>
+
+          <input id="inputCuadrado" type="number" />
+          <button class="primary-button" type="button" onclick="calcularPerimetroCuadrado()">
+            calcular el perímetro
+          </button>
+          <button  class="primary-button" type="button" onclick="calcularAreaCuadrado()">
+            calcular el área
+          </button>
+        </div>
+
+        <!-- TRIANGULO -->
+        <div>
+         
+          <img src="./img/triangle-shape_icon-icons.com_53860.png" alt="imagen-triangulo"><br>
+          <!-- lado1 -->
+          <label for="inputLado1Triangulo">
+            Escribe cuánto mide el lado 1 del triángulo</label
+          >
+          <input  id="inputLado1Triangulo" type="number" />
+          <!-- lado 2 -->
+          <label for="inputLado2Triangulo">
+            Escribe cuánto mide el lado 2 del triángulo</label
+          >
+          <input id="inputLado2Triangulo" type="number" />
+          <!-- base -->
+          <label for="inputBaseTriangulo">
+            Escribe cuánto mide la base del triángulo</label
+          >
+          <input  id="inputBaseTriangulo" type="number" />
+
+          <button class="primary-button" type="button" onclick="calcularPerimetroTriangulo()">
+            calcular el perímetro
+          </button>
+          <!-- CALCULAR EL ÁREA
+         -->
+
+          <label for="inputAlturaTriangulo">
+            Escribe cuánto mide la altura del triángulo</label
+          >
+          <input id="inputAlturaTriangulo" type="number" />
+
+          <button class="primary-button"  type="button" onclick="calcularAreaTriangulo()">
+            calcular el área</button
+          ><br />
+        </div>
+
+        <div>
+          <img src="./img/perfect-circle_icon-icons.com_53928.png" alt="imagen circulo"><br>
+          <!-- CIRCULO -->
+
+          <!-- PRIMERO EL DIAMETRO -->
+          <label for="inputRadioCirculo">
+            Escribe cuánto mide el radio del circulo</label
+          >
+          <input id="inputRadioCirculo" type="number" />
+
+          <button class="primary-button" type="button" onclick="calcularDiametroCirculo()">
+            calcular el diámetro
+          </button>
+          <button class="primary-button" type="button" onclick="calcularPerimetroCirculo()">
+            calcular el perímetro
+          </button>
+          <button class="primary-button" type="button" onclick="calcularAreaCirculo()">
+            calcular el área
+          </button>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
